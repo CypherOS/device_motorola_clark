@@ -1,0 +1,26 @@
+[
+  {
+    "repository":  "device_qcom_common",
+    "target_path": "device/qcom/common",
+	"branch":      "nougat-mr1",
+	"remote":      "aoscp"
+  },
+  {
+    "repository":  "kernel_motorola_msm8992",
+    "target_path": "kernel/motorola/msm8992",
+	"branch":      "nougat-mr1",
+	"remote":      "aoscp"
+  },
+  {
+    "repository":  "hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+	"branch":      "nougat-mr1",
+	"remote":      "aoscp"
+  },
+  {
+    "repository":  "packages_resources_Translato",
+    "target_path": "packages/resources/Translato",
+	"branch":      "nougat-mr1",
+	"remote":      "aoscp"
+  }
+]

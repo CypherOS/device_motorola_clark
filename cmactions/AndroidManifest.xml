@@ -51,14 +51,8 @@
             android:label="@string/screen_gestures_panel_title"
             android:theme="@style/CMActions" >
             <intent-filter>
-                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <action android:name="com.android.settings.action.DOZE_SETTINGS" />
             </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.device" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_settings_gestures" />
         </activity>
 
     </application>
