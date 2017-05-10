@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/clark/device.mk)
 
 # Inherit some common AOSCP stuff.
-$(call inherit-product, vendor/aoscp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/clark/overlay
 
