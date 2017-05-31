@@ -22,5 +22,11 @@
     "target_path": "packages/resources/Translato",
 	"branch":      "nougat-mr1",
 	"remote":      "aoscp"
+  },
+  {
+    "repository":  "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+	"branch":      "nougat-mr1",
+	"remote":      "aoscp"
   }
 ]
