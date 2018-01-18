@@ -1,0 +1,22 @@
+[
+  {
+    "repository":  "device_qcom_common",
+    "target_path": "device/qcom/common",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "kernel_motorola_msm8992",
+    "target_path": "kernel/motorola/msm8992",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "remote":      "aoscp"
+  }
+]

@@ -62,16 +62,10 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface \
     libmmjpeg_interface \
     libshims_camera \
-    mm-qcamera-app \
-    Snap
+    mm-qcamera-app
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml
-
-# CMActions
-PRODUCT_PACKAGES += \
-    CMActions \
-    libjni_CMActions
 
 # Display
 PRODUCT_AAPT_CONFIG := normal
