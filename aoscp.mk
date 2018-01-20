@@ -7,8 +7,6 @@ $(call inherit-product, device/motorola/clark/device.mk)
 # Inherit some common CypherOS stuff.
 $(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/motorola/clark/overlay
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aoscp_clark
 PRODUCT_BRAND := Android
